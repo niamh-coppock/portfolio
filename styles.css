@@ -181,3 +181,13 @@ footer {
     color: #666;
     margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+}
